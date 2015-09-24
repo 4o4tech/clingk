@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+      <meta charset="utf-8" />
+      <mete name="keywords" content="clingk，生活，互联，分享"/>
+      <meta name="description" content=" Clingk.com 凌可  生活，互联，分享. 让每一个人享受互联网的乐趣.  想象一下，一个世界，人人互联">
+      <meta name="author" content="Jimze"/>
+      
+        <title> Clingk </title>
+     
+        <!--
+              if you are interested with this code ,you can communicate with me . 
+              here is my email :  clingkhere@gmail.com      ( @.@ )  
+               !!!-->
+
+
+      <link href="style.css" rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" href="STYLE/nav_style.css" type="text/css">
+      <link rel="stylesheet" href="STYLE/accordition.css">
+      <script type="text/javascript" src="JS/js.js"></script>
+      <script type="text/javascript" src="JS/accordion.js"></script>
+      <script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery
+/jquery-1.4.min.js"></script>
+    
+
+      <link rel="bookmark"  type="image/x-icon"  href="http://www.clingk.com/favicon.ico"/>
+      <link rel="shortcut icon" href="http://www.clingk.com/favicon.ico"> 
+<link rel="icon" href="http://www.clingk.com/favicon.ico">
+      
+      <base target="_blank"/>
+      
+      
+      
+      
+	</head>
+
+
+    <body id="background">
+       
+       
+        
+        <!--navagation of the web-->
+       
+        <div id = "navigation">
+           
+            <nav class = "nav_left">
+              <!--menu button-->
+               <ul id="menu">
+                   <li>
+                       <a title="menu">
+                           <img src="images/menu.png" alt="">
+                       </a>
+                   </li>
+                   
+               </ul>
+               <!--tags -->
+               <ul id= "tags">
+                   <li>
+                       <a title="tags">
+                         <span>Tags</span>
+                       </a>
+                   </li>
+               </ul>
+                
+            </nav>
+            
+            
+            <!--hacking  search-->
+            <nav class = "nav_center">
+               
+                <div id="search_warp">
+                    <form action=""  id = "search">
+                        <input type="text" class="search_text" >
+                        <input type="submit" class ="search_submit">
+                        
+                    </form>
+                    
+                </div>
+                
+            </nav>
+            
+            
+            <!--hacking  button-->
+            <nav class= "nav_right">
+                
+                
+            </nav>
+        
+        </div>
+     
+            
+         <div id="menu_page">
+            
+             
+             <ul class="set">
+                 <li id="setTags"><a title="">设置书签</a></li>
+                
+                 <li id="setBackground">更换背景</li>
+                 
+                 <li id="closeMenupage">关闭</li>
+             </ul>
+             
+           
+         </div>
+
+     
+               
+        
+   
+    <div id="changBg">
+       
+        <ul id="bgWrap" class="accUl">
+           
+            <li id="bgLi" class="accLi" >           
+                <a href="">
+                    <img src="bg_pre/bg1.jpg">
+                </a>
+                <div>
+                    <p></p>
+                </div>
+                <i class="line"></i>
+                <i class="mask"></i>
+            </li>
+            
+            
+            <li id="bgLi" class="accLi">
+               <a href=""><img src="bg_pre/bg2.jpg"></a>
+                <div>
+                    <p></p>
+                </div>
+                <i class="line"></i>
+                <i class="mask"></i>
+            </li>
+            
+            
+            <li id="bgLi" class="accLi">
+               <a href=""><img src="bg_pre/bg3.jpg"></a>
+                <div>
+                    <p></p>
+                </div>
+                <i class="line"></i>
+                <i class="mask"></i>
+            </li>
+            
+            
+            <li id="bgLi" class="accLi">
+               <a href=""><img src="bg_pre/bg4.jpg"></a>
+                <div> 
+                    <p></p>
+                </div>
+                <i class="line"></i>
+                <i class="mask"></i>
+            </li>
+            
+          
+            <li id="bgLi" class="accLi">
+               <a href=""><img src="bg_pre/bg5.jpg"></a>
+                <div>
+                    <p></p>
+                </div>
+                
+                <i class="mask"></i>
+            </li>
+        </ul>
+        
+        <div id="bgBtn">
+               <ul>
+                   <li class="submitBtn" id="submitSetBg" ><p>submit</p></li>
+                   <li class="closeBtn"><img src="close.png" class="closeImg"></li>
+               </ul>
+               
+              
+        </div>
+    </div>
+        
+       
+       
+    <!--mainbody of the web-->
+    <main id="wrap">
+           
+        <!--right of the web--> 
+
+        <div id="right">
+               
+                
+                <!--weather-->
+<!--
+                <div id="weather">
+                   <iframe width="300" scrolling="no" height="60" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=12&icon=1&num=2"></iframe>
+                </div>
+-->
+                
+                
+                <!--music-->
+                <div class="musicBut">
+                <a  title="Play Music">
+                <img src="images/music2.png"  onClick="openMus()"/>
+                </a>
+                </div>
+               
+     
+            </div><!--right end-->
+        
+                 
+        <!--   
+                                                  
+                     ( ~.~)  u are looking my code   
+                       
+        -->
+                    
+
+        <!--left of web  website hyperlinks -->
+        <div id="leftbox">
+           
+              
+            <!--see-->  
+            <div id="see" >
+                   
+                    <!--search-->
+                    <div class="search eee">
+                    
+                        <div class = "container">
+                            <a href="http://www.baidu.com">
+                            <img src="images/baidu.jpg">
+                            </a>
+                        </div>
+
+                        <div class = "container">
+                            <a href="http://www.google.com">
+                            <img src="images/google.JPG">
+                            </a>
+                        </div>
+
+                        <div class = "container">
+                            <a href="http://www.haosou.com">
+                            <img src="images/haosou.jpg">
+                            </a>
+                        </div>
+
+                        <div class = "container">
+                            <a href="http://www.bing.com/">
+                            <img src="images/bing.jpg">
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <!--news-->
+                    <div class="news eee" >
+                        <div class = "container">
+                            <a href="http://www.sohu.com/">
+                            <img src="images/souhu.jpg">
+                            </a>
+                        </div>
+
+                        <div class = "container">
+                            <a href="http://www.sina.com.cn">
+                            <img src="images/sina.jpg">
+                            </a>
+                        </div>
+
+                        <div class = "container">
+                            <a href="http://www.163.com">
+                            <img src="images/wangyi.jpg">
+                            </a>
+                        </div>
+
+                        <div class = "container">
+                            <a href="http://www.qq.com">
+                            <img src="images/tenxun.jpg">
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <!--shopping-->
+                    <div class = "shopping eee">
+                        <div class = "container">
+                            <a href="http://www.taobao.com">
+                            <img src="images/taobao.jpg">
+                            </a>
+                        </div>
+
+                        <div class = "container">
+                            <a href="http://www.amazon.cn">
+                            <img src="images/amazon.jpg">
+                            </a>
+                        </div>
+
+                        <div class = "container">
+                            <a href="http://www.tmall.com/">
+                            <img src="images/tmall.jpg">
+                            </a>
+                        </div>
+
+                        <div class = "container">
+                            <a href="http://www.jd.com">
+                            <img src="images/jd.jpg">
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <!--videos-->
+                    <div class = "video eee">
+                        <div class = "container">
+                            <a href="http://www.youku.com">
+                            <img src="images/youku.jpg">
+                            </a>
+                        </div>
+
+                        <div class = "container">
+                            <a href="http://www.bilibili.com/">
+                            <img src="images/bilibili.jpg">
+                            </a>
+                        </div>
+
+                        <div class = "container">
+                            <a href="http://tv.sohu.com">
+                            <img src="images/souhuvideo.jpg">
+                            </a>
+                        </div>
+
+                        <div class = "container">
+                            <a href="http://www.iqiyi.com">
+                            <img src="images/aiqiyi.jpg">
+                            </a>
+                        </div>
+
+              </div>
+      
+                
+                    <!--bookmark    button open hidden div -->
+                    <div  class="bookmark" id="mark">
+                       <a title= "more">
+                           <input type="image" src="new images/bookmark.png" value= "more">
+                        </a>
+                    </div>
+
+              </div> <!--end of the see -->
+        
+           
+            <!--hidden -->
+            <div id="hid" class = "hidden">
+
+                    <!--         
+
+
+           i know
+
+            here have bug  bug  bug  !!!
+
+           \      /
+            \    /
+            |____|   喵喵哒           
+           | .  . |
+           |__^^__|
+       ___|       |___
+      /   |       |   \
+       ___|       |___
+      /   |       |   \
+       ___|       |___
+      /   |_______|   \
+
+
+
+    -->
+
+                <!--music-->
+                <div class = "music aaa">
+                   
+                    <div class = "hid_container">
+                        <a href="http://douban.fm/">
+                        <img src="images/douban.gif">
+                        </a>
+                    </div>
+
+                    <div class = "hid_container">
+                        <a href="http://www.xiami.com/">
+                        <img src="images/xiami.gif">
+                        </a>
+                    </div>
+
+                    <div class = "hid_container">
+                        <a href="http://y.qq.com">
+                        <img src="images/qqmusic.jpg">
+                        </a>
+                    </div>
+
+                    <div class = "hid_container">
+                        <a href="http://www.yinyuetai.com/">
+                        <img src="images/yinyuetai.gif">
+                        </a>
+                    </div>
+
+                </div>
+
+               <!--convenience-->
+                <div class = "convenience aaa">
+                   
+                    <div class = "hid_container">
+                        <a href="http://www.ctrip.com/">
+                        <img src="images/ctrip.jpg">
+                        </a>
+                    </div>
+
+                    <div class = "hid_container">
+                        <a href="http://www.kuaidi100.com/">
+                        <img src="images/kuaidi100.gif">
+                        </a>
+                    </div>
+
+                    <div class = "hid_container">
+                        <a href="https://mail.qq.com/">
+                        <img src="images/qqmail.gif">
+                        </a>
+                    </div>
+
+                    <div  class = "hid_container">
+                        <a href="https://mail.google.com/">
+                        <img src="images/gmail.gif">
+                        </a>
+                    </div>
+
+                </div>
+
+
+            </div> <!--end of hidden-->
+        
+        
+         
+    
+    
+           </div><!--mainbody end-->
+             
+    
+</main>
+ 
+    <!--bottom of the web-->
+  
+
+    
+    
+    
+    <!--end of the bottom-->
+    
+</body>
+    
+     <footer>
+    
+    <p>Design by Jimze</p>
+    
+    
+    
+    <p>Twitter: @clingkhere    Email: clingkhere@gmail.com  Weibo: @jimzeee  </p>
+
+    <p>still studying in WKU</p>
+    
+    
+   
+    </footer>                        
+    <!-- thanks read my code    (@ . @)  -->
+    
+        </html>
