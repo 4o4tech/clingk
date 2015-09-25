@@ -1,0 +1,101 @@
+ @font-face {
+                  font-family:"KSR";
+                  src:url(font/KSR.otf);
+        }
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	background-color:rgb(234, 255, 221);
+	}
+/*top statment*/
+.bg3{
+    width: auto;
+    height: 600px;
+    background: url(images/bg3.jpg);
+    /*图片 适应屏幕*/
+    background-size:cover;
+filter : progid:DXImageTransform.Microsoft.AlphaImageLoader ( sizingMethod='scale' , src='images/bg3.jpg') 
+}
+
+
+h3{
+     color: rgba(132, 253, 150, 0.9);
+}
+
+ span{
+     
+     padding-top: 200px;
+     padding-left:200px;
+     display: block;
+	 font-family:"KSR";
+	 font-size:30px;
+     color: rgba(255, 255, 255, 0.95);
+	}
+
+h5{
+    text-align: center;
+}
+
+
+/*title character*/
+.bold{
+	font-weight:590;
+	font-size:20px;
+	font-family:"微软雅黑";
+	}
+
+
+
+/*table */
+tr td{
+    padding: 6px 8px;
+}
+
+/* HPlink character*/
+td{
+	text-align:center;
+ 	font-family:"微软雅黑";
+ 	font-weight:500;
+ 	font-size:13px;
+	}
+/*dele HPlink underline and change color*/
+a:link{
+ text-decoration:none;  
+ color:rgb(255, 145, 145);
+}
+
+
+
+/* add animition on the HPlink*/
+.ani1 a{
+		  display: inline-block;
+		  -webkit-transition: all 0.15s ease-in;
+		  -moz-transition: all 0.15s ease-in;
+		  -o-transition: all 0.15s ease-in;
+		  -ms-transition: all 0.15s ease-in;
+		  transition: all 0.15s ease-in;
+		}
+.ani a:hover{
+          font-size: 15px;
+          font-weight:800;
+          text-shadow:8px 5px 5px rgba(80, 80, 80, 0.3);
+    
+		}
+
+
+/*bottom*/
+.bottom{
+    margin: 50px 0px 0px;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px 8px 0 0;
+}
