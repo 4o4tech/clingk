@@ -1,0 +1,253 @@
+
+
+
+
+@charset "utf-8";
+
+         @font-face {
+              font-family:"blackr";
+              src:url(font/BLACKR.ttf);
+    }
+        *{margin: 0; padding: 0;}
+
+
+        #background{
+            
+/*
+           background-image: url(images/bg.jpg);
+           background-size:cover;
+*/
+           background-image:url(bg/bg1.jpg);
+           transition: all ease-in-out 0.3s;
+            
+            
+            
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+           background-size:100% 100%;
+            
+
+        }
+
+       
+
+        #wrap{
+            width:90%;
+            margin:5% 10% ;
+            
+            display:;   
+           
+        } 
+
+        /*right of the web //time // weather*/
+        #right{
+            background-color: rgba(121, 121, 121, 0.55);
+            width:25%;
+            height: auto;
+            margin: 5% 2%;
+            padding: 10px;
+            float:right;
+            /*border: 2px solid red;*/
+            border-radius: 20px ;
+            text-align: center; /* can't dele  music button center */
+        }
+
+        /*weather*/
+        #weather{
+            margin: 10%;
+            width: 75%;
+            height: 25%;
+
+        }
+
+        /*music*/
+        .musicBut img{
+            width: 30%;
+            height: 30%;
+            opacity: 0.75;
+            -webkit-transition: opacity 0.5s ease-out;
+            -moz-transition: opacity 0.5s ease-out;
+          -o-transition: opacity 0.5s ease-out;
+          -ms-transition: opacity 0.5s ease-out;
+             transition: opacity 0.5s ease-out;
+        }
+
+        .musicBut img:hover{
+
+           opacity: 1;
+           -webkit-transition: all 0.1s ease-out;
+          -moz-transition: all 0.1s ease-out;
+          -o-transition: all 0.1s ease-out;
+          -ms-transition: all 0.1s ease-out;
+          transition: all 0.1s ease-out;
+
+
+        }
+
+
+
+        /*mainbody*/
+        #leftbox {
+            
+            
+            width:58%;/*change box size*/
+            height:auto;
+            margin: 5% 2% 5% 2%;
+            padding: 0;
+            overflow: hidden; 
+            float:right;/*left*/
+/*            background-color: rgba(92, 92, 92, 0.5) ;*/
+            background-color: rgba(99, 99, 99, 0.5) ;
+            border-radius: 20px;
+            position: relative;
+           
+        }
+
+/* make the icon center*/
+.eee{
+
+    margin-left: 10%;
+    
+}
+
+.container{
+            margin:1%;
+            position:relative;
+            float:left;
+            width:20%;
+            height:20%;
+            opacity:0.7;        
+    
+            text-align: center;
+}
+
+.container img {
+    margin:0 auto;
+    width:80%;
+    height:80%;
+    border-radius:12.5%;
+    
+    -webkit-transition: all 0.2s ease-out;
+          -moz-transition: all 0.2s ease-out;
+          -o-transition: all 0.2s ease-out;
+          -ms-transition: all 0.2s ease-out;
+          transition: all 0.2s ease-out;
+}
+
+.container img:hover {
+    
+ -webkit-transform: scale(1.1);
+    -moz-transform:scale(1.1);
+    -o-transform:sclae(1.1);
+    transform: scale(1.1);
+
+    
+/*background-color: rgba(26, 26, 26, 0.2);*/
+}
+
+div.hid_container{
+ 
+    width:120px;
+    height:120px;
+    float:left;
+    margin: 20px 15px 0;
+    text-align: center;
+}
+
+div.hid_container img{
+ 
+    width:85%;
+    height:85%;
+    border-radius:48%;
+    opacity: 0.85;
+}
+
+        /*bottom */
+
+        .bottom{
+
+            height: 70px;
+            width:100%;
+        
+            position: absolute;         
+            bottom:0px;
+            float:left;
+            overflow: hidden;
+            background-color: rgba(0, 0, 0, 0.35);
+            
+
+
+        }
+
+     
+
+*{margin: 0 px; padding: 0 px;}
+
+
+/*
+#hid:not[class="container"]{
+    z-index: -99;
+}
+*/
+
+
+#hid{
+    /*js change the  id hid width  */
+    clear: both;
+    width: 0px;
+
+    background-color:rgba(2, 2, 2, 0.35);
+    border-radius: 0 0 20px 20px;
+}
+
+/*
+#hid div img{
+    width:70%;
+}
+*/
+
+
+
+.hidden{
+clear: both;
+display:none;
+  
+}
+
+
+.show{
+clear:both;
+display:inline-block;
+position: relative;
+    
+box-shadow:8px 5px 10px rgba(0, 0, 0, 0.45) inset;
+float:left;
+padding-bottom: 50px;
+}
+
+
+    .bookmark {
+        width:65px;
+        height:65px;
+        position:relative;
+        bottom:70px;
+        left:90%;
+    }
+
+    .bookmark input{
+        width:60px;
+        height:60px;
+        opacity:0.8;
+    }
+    .bookmark input:hover{
+        opacity: 1 ;
+}
+
+
+footer{
+display: none;
+}     
+
+
+/*hidden the conve */
+
